@@ -70,7 +70,7 @@ button:focus-visible {
 
 * {
   font-family: arial, sans-serif;
-  margin: 0;
+  margin: 10px;
 }
 
 body,
@@ -90,12 +90,18 @@ body > div {
 }
 
 #navbar {
-  padding: 2em;
-  justify-content: space-evenly;
+  /* padding: 2em;
+  justify-content: space-evenly; */
+  background-color: wheat;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 #main-section {
   flex-grow: 1;
+  padding: 20px;
+  text-align: center;
 }
 
 #main-section > div {
@@ -117,4 +123,15 @@ body > div {
 
 .home {
   background-color: #242424;;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
 }
